@@ -1,5 +1,5 @@
-**# Thinkbridge Internship**
-    ### This repository consists of modules of python programs that will get completed during the internship period at ThinkBridge Software Pvt. Ltd. under the guidance of Sai Ganesh Sir.  
+# **Thinkbridge Internship**
+### This repository consists of modules of python programs that will get completed during the internship period at ThinkBridge Software Pvt. Ltd. under the guidance of Sai Ganesh Sir.  
 
 _## Latest Commit_
 
@@ -13,7 +13,7 @@ _### For both Linux and windows users_
    * Note : Assuming your pc has git already installed on it. If you don't have git installed on your system then you can follow the steps given on **https://git-scm.com/book/en/v2/Getting-Started-Installing-Git**.
 2. Extract the zip file in your home folder(or any folder of your choice)
 3. Open command prompt/terminal in the same directory where you have extracted the zip file
-4. You can run the program by typing `**python3 currency_to_word.py**` in your command prompt / terminal.
+4. You can run the program by typing **`python3 currency_to_word.py`** in your command prompt / terminal.
     * Note : Assuming you have python3 installed correctly on your system and if not then download it from             
       **https://www.python.org/downloads/** based on your OS.
 5. Congratulations! you have run the program successfully
@@ -22,4 +22,4 @@ _### For both Linux and windows users_
 Type the following commands
    * **For Linux user --> `sudo chmod 777 run.sh`**
    * **`./run.sh`**
-And, now you can convert you integer input into words. Enjoy!
+### Now you can convert you integer input into words. Enjoy!
