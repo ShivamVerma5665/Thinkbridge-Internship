@@ -20,6 +20,6 @@ _### For both Linux and windows users_
 
 ### **Alternative method for Linux users**
 Type the following commands
-   **For Linux user --> `sudo chmod 777 run.sh`**
+   * **For Linux user --> `sudo chmod 777 run.sh`**
    * **`./run.sh`**
 And, now you can convert you integer input into words. Enjoy!
