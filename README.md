@@ -6,7 +6,7 @@ This repository consists of modules of python programs that will get completed d
 
 ## Prerequisites
 
-This program is entirely developed using Python3. So, installing a python compiler would help you not only to run the code easily but also will help you to make required changes. I personally use **Microsoft Visual Studio Code (https://code.visualstudio.com/)** which is one of the best compilers available for all operating systems and which also includes extensions of all the other languages apart from python e.g. java, cpp, ruby, etc. You can also use other compilers such as **Atom (https://atom.io/)*, **Eclipse (https://www.eclipse.org/downloads/)** and **PyScripter (https://sourceforge.net/projects/pyscripter/)**, **Pycharm (https://www.jetbrains.com/pycharm/)**.
+This program is entirely developed using Python3. So, installing a python compiler would help you not only to run the code easily but also will help you to make required changes. I personally use **Microsoft Visual Studio Code (https://code.visualstudio.com/)** which is one of the best compilers available for all operating systems and which also includes extensions of all the other languages apart from python e.g. java, cpp, ruby, etc. You can also use other compilers such as **Atom (https://atom.io/)**, **Eclipse (https://www.eclipse.org/downloads/)** and **PyScripter (https://sourceforge.net/projects/pyscripter/)**, **Pycharm (https://www.jetbrains.com/pycharm/)**.
 
 # Installation Instructions
 
