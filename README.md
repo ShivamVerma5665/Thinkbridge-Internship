@@ -91,7 +91,7 @@ Note : If you want to install compiler other than vscode then you can go to the 
 
 ### **Alternative method for Linux users**
 Type the following commands
-   * **For Linux user --> `sudo chmod 777 run.sh`**
+   * **`sudo chmod 777 run.sh`**
    * **`./run.sh`**
 ### Now you can convert you integer input into words. Enjoy!
 
