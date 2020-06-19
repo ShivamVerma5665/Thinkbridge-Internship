@@ -38,7 +38,7 @@ def int_to_words(num):
             return int_to_words(num // size_hun) + ' thousand, ' + int_to_words(num % size_hun) #splitting the tree digit number so that "thousand" gets added after first digit's value, "hundred" after second digits value 
                                                                                                 #and the remaining  digit's value ar tens and units place can be extracted from dictionary by calling the same function int_to_words()
 def main():
-    print("\n\tCompiling is :", (timeit.default_timer() - starttime), "usec")
+    print("\n\tCompiling time is :", (timeit.default_timer() - starttime), "usec")
     print("\n\t", "*"*25,"Currency Converter - Program 1","*"*25)
     ch = " "
     while True:                                                                                 #loop to provide usability after each run
@@ -61,9 +61,11 @@ if __name__ == "__main__":
     
 '''
 Output
-         ************************* Currency Converter - Program 1 *************************
 
-        Compiling is : 7.740000000922009e-07 usec
+        
+        Compiling time is : 7.740000000922009e-07 usec
+        
+         ************************* Currency Converter - Program 1 *************************
 
         Do you want to continue(y/n): y
 
