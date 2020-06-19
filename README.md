@@ -12,6 +12,8 @@ This program is entirely developed using Python3. So, installing a python compil
 
 Below are the guidelines on how to install **Microsoft Visual Studio Code** for your Operating System
 
+![Screenshot at 2020-06-19 10-17-39](https://user-images.githubusercontent.com/43331648/85097621-97c42f80-b1e7-11ea-8b9d-0b598e23f43d.png)
+
 ## For Windows
    * Goto https://code.visualstudio.com/download
    * Click on the **windows download button** and your download will start automatically(if applicable, provide the appropriate path where the executable file must get downloaded.
@@ -54,6 +56,8 @@ Note : If you don't know whether your distribution is debian or RPM-based, then 
 **Alternative option** 
    * You can also download Microsoft Visual Studio Code from **snapstore**. In order to install go to https://snapcraft.io/code
    
+![vscode_snapstore](https://user-images.githubusercontent.com/43331648/85097834-4d8f7e00-b1e8-11ea-95e7-0f7876ff15e2.png)
+
 Note : If you want to install compiler other than vscode then you can go to the links mentioned in prerequisites and if the compiler name is not mentioned over there, then the web is open for you, just google it!
 
 ## _Latest Commit_
@@ -66,7 +70,13 @@ Note : If you want to install compiler other than vscode then you can go to the 
 
 ### Running the program on Vscode
   * If you have followed the instructions and installed Vscode on your machine, then you can simply install python extension from the extension market place.
+  
+![python-extension-marketplace](https://user-images.githubusercontent.com/43331648/85097259-84fd2b00-b1e6-11ea-81fa-581e6857316b.png)
+
+  
   * Now, you can simply run the code or `Right-click` and select `Run in terminal` and the you will have the program running in your vscode window.
+  
+  ![code_in_vscode](https://user-images.githubusercontent.com/43331648/85097731-f1c4f500-b1e7-11ea-8d66-89f90a7612eb.png)
 
 ### Running the program on Command Prompt / Terminal
 
@@ -84,4 +94,9 @@ Type the following commands
    * **For Linux user --> `sudo chmod 777 run.sh`**
    * **`./run.sh`**
 ### Now you can convert you integer input into words. Enjoy!
+
+**Output**
+
+![currency_to_text_output](https://user-images.githubusercontent.com/43331648/85097504-40be5a80-b1e7-11ea-8fc5-2d21d2f11475.png)
+
 
