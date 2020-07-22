@@ -1,11 +1,6 @@
 # Thinkbridge Internship
 
-<<<<<<< HEAD
 **Note : This is a development branch**
-=======
-## --> This is a development branch
-
->>>>>>> development
 
 ## Description
 
