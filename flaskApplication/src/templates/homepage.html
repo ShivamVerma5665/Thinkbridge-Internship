@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Currency2Word</title>
-        <link rel="stylesheet" type="text/css" href="static/main.css">
-    </head>
-    <body>
-        <h1 class="home-header">Welcome To</h1>
-        <h2 class="home-subheader">Online Currency To Words Convertor</h1>
-    </body>
-</html>                 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1 class="home-header">Welcome To</h1>
+    <h2 class="home-subheader">Online Currency To Words Convertor</h2>
+
+    {% for message in form.curInput.errors %}
+        <div>{{ message }}</div>
+    {% endfor %}
+
+    <form action = "http://127.0.0.1:5000/" method = post>
+        {{ form.hidden_tag() }}<br>
+
+        <div class="input-container">
+            <p>
+                {{ form.curInput.label }}<span id="curInput" style="margin-left: 7px;">{{ form.curInput }}</span>&nbsp;&nbsp;<button onclick="document.getElementById('#curInput').value = ''">Clear</button>
+            </p>
+            <br><br>
+
+            {{ form.lang.label }}&nbsp;&nbsp;{{ form.lang }}
+            <br>
+            {{ form.submit() }}
+            <br>
+            <div class=output-container>
+                <p id="p1">{{ result }}</p>
+            </div>
+            <br>
+            
+        </div>
+     </form>
+     <button onClick="copyToClipboard('#p1')" class="button button1">Copy text</button>
+     <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert("Text copied")
+        }
+     </script>
+</body>
+</html>
